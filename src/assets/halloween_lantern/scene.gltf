@@ -1,0 +1,417 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1369,
+      "max": [
+        49.65937423706055,
+        337.19842529296875,
+        129.75474548339844
+      ],
+      "min": [
+        -44.01253890991211,
+        0.0,
+        -50.12305450439453
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16428,
+      "componentType": 5126,
+      "count": 1369,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1369,
+      "max": [
+        1.0,
+        1.0,
+        0.9996691346168518,
+        1.0
+      ],
+      "min": [
+        -0.9998965263366699,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1369,
+      "max": [
+        0.9941593408584595,
+        0.9941593408584595
+      ],
+      "min": [
+        0.005840667523443699,
+        0.013730525970458984
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5016,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32856,
+      "componentType": 5126,
+      "count": 464,
+      "max": [
+        18.38201904296875,
+        26.966630935668945,
+        18.38201904296875
+      ],
+      "min": [
+        -18.38201904296875,
+        -26.966630935668945,
+        -18.38201904296875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 38424,
+      "componentType": 5126,
+      "count": 464,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10952,
+      "componentType": 5126,
+      "count": 464,
+      "max": [
+        0.9788863658905029,
+        0.9905740022659302
+      ],
+      "min": [
+        0.014429852366447449,
+        0.015169143676757813
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 20064,
+      "componentType": 5125,
+      "count": 1236,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "r2detta (https://sketchfab.com/r2detta)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/halloween-lantern-6981b592f50744babe38e833f0d941da",
+      "title": "Halloween Lantern"
+    },
+    "generator": "Sketchfab-12.63.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 25008,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14664,
+      "byteOffset": 25008,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43992,
+      "byteOffset": 39672,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21904,
+      "byteOffset": 83664,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 105568,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Lantern1_baseColor.png"
+    },
+    {
+      "uri": "textures/Lantern1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Lantern1_normal.png"
+    },
+    {
+      "uri": "textures/Lantern1_Light_emissive.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Lantern1",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.5035143400884058,
+        0.5035143400884058,
+        0.5035143400884058
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "name": "Lantern1_Light",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lantern1_2_Lantern1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Lantern1_Light_Lantern1_Light_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "fca63cf7f3dd4587ba6092ee458a52de.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "Lantern1"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.6522688269615173,
+        0.647670328617096,
+        -0.6218169927597046,
+        1.0
+      ],
+      "name": "Lantern1_2"
+    },
+    {
+      "mesh": 0,
+      "name": "Lantern1_2_Lantern1_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.490633487701416,
+        267.3299255371094,
+        121.91600799560547,
+        1.0
+      ],
+      "name": "Lantern1_Light"
+    },
+    {
+      "mesh": 1,
+      "name": "Lantern1_Light_Lantern1_Light_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
